@@ -1,0 +1,96 @@
+#NavHeader{
+    background-color: rgb(0, 95, 189);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 200%;
+    z-index: 1000;
+    margin-right: 8px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #ad2b2b;
+    font-size: 20px;
+}
+.Nav{
+    background-color: #005fcb82;
+    border: none; 
+    position: relative;;
+    left: 900px;
+    padding-right: 50px;
+    width: 40px;
+    margin: 0;    
+}
+#PicturesIG{
+    background-image: url("NavikBG.jpg");
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+    background-size: cover;
+
+}
+#Gradient{
+    background: linear-gradient(to bottom , #858585, #FFFFFF);
+    margin: 0px;
+    padding: 0px;
+    margin-top: -40px;
+    padding-top: 0%;
+}
+.Nav a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+.SLIDES
+{
+    max-height: 481px;
+    max-width: 550px;
+    padding-left: 10px;
+    max-width: 300px;
+    max-height: 262px;
+
+}
+@keyframes MyAnimation{
+    0%{
+        transform: scale(1);
+    }
+    5%{
+        transform: scale(1.2);
+    }
+    20%{
+        transform: scale(1.2);
+    }
+    25%{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+#SlideShow1{
+    animation-name: MyAnimation;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-delay:0s;
+}
+#SlideShow2{
+    animation-name: MyAnimation;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-delay:3s;
+}
+#SlideShow3{
+    animation-name: MyAnimation;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-delay:6s;
+}
+a{
+    text-decoration: none;
+    color:#2a6194; 
+}
