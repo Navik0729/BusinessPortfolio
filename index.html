@@ -1,85 +1,60 @@
 <html>
     <head>
-        <title>Navik</title>
-        <link rel="stylesheet" href="style.css">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>   
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Cedarville+Cursive&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
-        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script src="main.js"></script>
     </head>
     <body onload="Shuffle()">
         <div id="NavHeader">
-            <nav>
+            <div class="Nav">
                 <ul>
-                   <button class="Nav"> <a href="#Home">Home</a></button>
-                   <button class="Nav"> <a href="#About">About</a></button>
-                   <button class="Nav"> <a href="#Services">Services</a></button>
-                   <button class="Nav"> <a href="#Contact">Contact</a></button>
+                 <li> <button class="NavButton"><a href="#Contacts">Contacts</a></button> </li>
+                 <li><button class="NavButton"><a href="#Service">Services</a></button></li>
+                 <li><button class="NavButton"><a href="#AboutUs">About Us</a></button></li>
+                 <li><button class="NavButton"><a href="#Home">Home</a></button></li>
                 </ul>
-            </nav>
+            </div>
         </div>
-        <br><br><br><br><br><br>
-    <div id="PicturesIG">
-        <div id="Home"></div>
+        <br><br><br><br>
+        <div id="Home" class="PicturesIG">
             <center>
-        <img src="" id="SlideShow1" alt="" class="SLIDES"> 
-        <img src="" id="SlideShow2" alt="" class="SLIDES"> 
-        <img src="" id="SlideShow3" alt="" class="SLIDES"> 
+               <img src="" alt="" id="SS1" class="SS">
+               <img src="" alt="" id="SS2" class="SS">
+               <img src="" alt="" id="SS3" class="SS">
             </center>
-
-        <div id="About">
-           <h2><i><u>About Us</u></i></h2>
-           <br>
-            <p> &nbsp; &nbsp; &nbsp;  We are Navik, a brand who sells any and every customers dream desgins to them, on any fabric, mugs, cap and etc. 
-                We provide a custom print job to our customers, with the best quality, price and time they can give. 
-                We at Navik prioritise quality and customer satifaction above everything else, and we are ready to make sure of that.
-                We started to think about this business when we were in Grade 10, and we saw that there is no Custom print job, 
-                atleast at an affordable price. From that day, we worked hard to make this business a dream come true, and we are finally here.
-                We, like we said in the the <a href="#Services">Services</a> section, provide custom print jobs in nearly anything. So if you need 
-                any custom or pre designed print jobs, You finally found the right place to do so, so please go ahead and contact us 
-                via the <a href="#Contact">Contact</a> section. 
-            </p>
-
         </div>
-    </div>
-    <div id="Gradient">   
-        <p></p>
-        <div id="Services"></div>
-             <h2><i><u>Our Beloved Services</u></i></h2> <br><br>
-        <p> We, at Navik, give custom print jobs in nearly anything
-             as we have listed below, along with our designed T-shirt.
-              You can check them out right <a href="">now</a>!</p>
-        <ol>
-            <li>Creative Designing</li>
-            <li>Custom Fabric Print Job</li>
-            <li>Mugs Printings</li>
-            <li>Cap Printings</li>
-            <li>Bags Printing</li>
-            <li>Wallets printings </li>
-            <li>Men Perfumes</li>
-            <li> Watches </li>
-        </ol>
-        <div id="Contact"></div>
-
-        Contact us at: <br>
-        <b>Email:</b><p> navik0729@gmail.com </p>
-        <b>Phone:</b><p> </p>
-                 </b><p> </p>
-                 
-        <div id="Footer"></div>
-    </div>
+          
+        <div id="Gradient">
+             <div id="AboutUs">
+             <h2 >About Us</h2>
+               <br>
+              <p> &nbsp; &nbsp; &nbsp; We are Navik, a brand who sells any and every customers their dream designs to them, on any fabrics, mugs, caps and etc. We provide a custom print job
+              to our customers, of course, with the best quality, prices and time. We, at Navik, prioritise quality and customer satisfaction above everything else,
+              and we are to make sure of that. We started to think about this business when we were grade 10, and we saw that there were no custome print jobs, atleast
+              at an affordable price, let alone the area. From that day on, we worked hard, we planned and shed sweat, blood and tears to make it happen, and today we are
+              finally here. We, like have stated before provide all the print jobs and sell products as stated in the <a href="#Service"> service </a> section. So if you
+              nead any print jobs, (pre-designed or custom), a product, We are glad to tell you, you have finally found it, so dont hesitate and contact us using the information in the 
+              <a href="#Contact"> contact </a> section. Thank you for being our customer.  </p>                            
+        </div>
+        <div id="Services">
+            <h2>Services</h2>
+            <br>
+            <p> &nbsp; &nbsp; &nbsp; We provide a variety of services to our customers. We provide custom print jobs on any fabric, mugs, caps and etc.
+            We additionally sell pre-designed products, such as t-shirts, hoodies, mugs, caps and more. We sell t-shirts, hoodies, caps, watches, perfumes, 
+            bags and wallets. We also provide design services to our customers, if they need help with designing their dream design. So if you need any of these services,
+            please contact us using the information in the <a href="#Contact"> contact </a> section, or directly go to the ordering site to place an order, right 
+            <a href="">now</a>. We are always happy to help you. </p>
+        </div>
+        <div id="Contacts">
+            <h2>Contact Us</h2>
+            <br>
+            <p> &nbsp; &nbsp; &nbsp; You can contact us using the following information: </p>
+            <p> Email: <a href="mailto:navik0729@gmail.com">navik0729@gmail.com</a> </p>
+            <p> Phone number: </p> <a>+20 111 111 1111</a>
+            Our Social Media handles include:
+            <ul>
+                <li> Instagram: <a href=""> @navik.business </a> </li>
+                <li> Facebook: <a href=""> Navik Business </a> </li>
+                <li> Twitter: <a href=""> @NavikBusiness </a> </li>
+        </div>
     </body>
 </html>
