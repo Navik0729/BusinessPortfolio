@@ -53,6 +53,35 @@ body{
     max-height: 481px;
     max-width: 550px;
     padding-left: 10px;
-    max-width: 300px;
-    max-height: 262px;
+    height: 250px;
+    width: 300px;
+    z-index: -1;
+}
+#PicBG
+{
+    height:500px;
+    width:auto;
+    background-image:linear-gradient(to bottom, white, black);
+    z-index:-2;
+}
+#Gradient
+{
+    height:auto;
+    width:auto;
+    background-image:linear-gradient(to bottom, black, white);
+    margin-top: -20px;
+    
+}
+#Home{
+    height:auto;
+    width:auto;
+    background-color: black;
+}
+#AboutUS
+{
+    color: rgb(192, 192, 192)
+}
+#Services
+{
+    color: rgb(64, 64, 64)
 }
